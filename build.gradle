@@ -59,6 +59,7 @@ dependencyManagement {
 	}
 }
 
+/*
 tasks.bootJar {
 	doLast {
 		def sourceFile = file("${buildDir}/classes/java/main/META-INF/spring-configuration-metadata.json")
@@ -81,7 +82,7 @@ tasks.bootJar {
 		}
 	}
 }
-
+*/
 tasks.jar {
 	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
